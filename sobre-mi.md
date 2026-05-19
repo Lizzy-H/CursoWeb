@@ -1,2 +1,3 @@
 Hola, soy Lizzy, soy amante de las novelas románticas, me gusta el billar, programo por hobby y simpre suelto datos curiosos.
 Mi color favorito es el rosa, quiero estudiar actuaría, tengo dos hermanas y me gustaría conocer Roma.
+Eli es mi hermana menor.
