@@ -16,5 +16,24 @@
     <p><h3>En esta actividad analizaremos cómo funciona una estructura condicional en el lenguaje C para determinar si un usuario es mayor o menor de edad.</h3></p> 
     
     <hr>
+    
+    <h2>A continuación se muestra el código</h2>
+    <pre><code>
+    #include &lt;stdio.h&gt;
+
+    int main() {
+        int edad;
+        printf("¿Cuántos años tienes? ");
+        scanf("%d", &amp;edad);
+
+        if (edad &gt;= 18) {
+            printf("Eres mayor de edad.\n");
+        } else {
+            printf("Eres menor de edad.\n");
+        }
+
+        return 0;
+    }
+    </code></pre>
 </body>
 </html>
