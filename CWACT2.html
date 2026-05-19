@@ -13,7 +13,7 @@
     <p>Holaaa, CW!</p>
 
     <h2>¿Qué vamos a hacer?<h2>
-    <p><h3>En esta actividad analizaremos cómo funciona una estructura condicional en el lenguaje C para determinar si un usuario es mayor o menor de edad.</h3></p> 
+    <h3>En esta actividad analizaremos cómo funciona una estructura condicional en el lenguaje C para determinar si un usuario es mayor o menor de edad.</h3>
     
     <hr>
     
@@ -35,5 +35,29 @@
         return 0;
     }
     </code></pre>
+
+    <h2>Explicación línea a línea</h2>
+
+    <p><strong>Línea 1:</strong> <code>#include &lt;stdio.h&gt;</code> <br> 
+    Incluye la librería estándar de entrada y salida.</p>
+
+    <p><strong>Línea 3:</strong> <code>int main() { ... }</code> <br> 
+    Es la función principal y el punto de inicio de cualquier programa en C.</p>
+
+    <p><strong>Línea 4:</strong> <code>int edad;</code> <br> 
+    Declara una variable llamada "edad". El tipo de dato <code>int</code> le avisa al compilador que esta variable solo guardará números enteros.</p>
+
+    <p><strong>Línea 5:</strong> <code>printf("¿Cuántos años tienes? ");</code> <br> 
+    Muestra una pregunta en la pantalla del usuario para indicarle qué dato debe introducir.</p>
+
+    <p><strong>Línea 6:</strong> <code>scanf("%d", &amp;edad);</code> <br> 
+    Detiene el programa y espera a que el usuario escriba un número. El formato <code>%d</code> le dice que lea un entero, y el símbolo <code>&amp;</code> (ampersand) indica que guarde ese valor directamente en el espacio de memoria asignado a la variable edad.</p>
+
+    <p><strong>Líneas 8 a 12:</strong> <code>if (edad &gt;= 18) { ... } else { ... }</code> <br> 
+    Es la estructura condicional. Evalúa si el número guardado en edad es mayor o igual a 18. Si se cumple (verdadero), ejecuta el bloque del <code>if</code> e imprime que es mayor de edad. Si no se cumple (falso), salta de inmediato al bloque del <code>else</code> e imprime que es menor de edad.</p>
+
+    <p><strong>Línea 14:</strong> <code>return 0;</code> <br> 
+    Termina la ejecución de la función principal y le devuelve un cero al sistema operativo, lo que significa que el programa se ejecutó y cerró correctamente sin errores.</p>
+
 </body>
 </html>
