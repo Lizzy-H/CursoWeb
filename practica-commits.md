@@ -46,10 +46,9 @@ Algo sobre mí: mi mayor sueño es convertirme en una escritora reconocida.
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. ¿qué es un hash?
-2. 
-3. 
-
+1. Diferencias principales entre Git y GitHub
+2. La historia de Git como remplazo de BitKeeper
+3. ¿Por qué se cambió de `master` a `main`?
 ---
 
 ## Nivel 5 · Tabla de comandos
@@ -59,12 +58,12 @@ Algo sobre mí: mi mayor sueño es convertirme en una escritora reconocida.
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | |
-| `git status` | |
-| `git add .` | |
-| `git commit -m "..."` | |
-| `git log --oneline` | |
-| `git push` | |
+| `git init` | | Inicializa un nuevo repositorio local de Git en la carpeta actual.
+| `git status` | | Muestra el estado de los archivos (cuáles están modificados, en Staging o sin rastrear).
+| `git add .` | | Agrega todos los archivos modificados y nuevos al Staging Area (los prepara para el commit).
+| `git commit -m "..."` | | Guarda de forma permanente los cambios que están en el Staging Area con un mensaje descriptivo.
+| `git log --oneline` | | Muestra el historial de commits simplificado en una sola línea por cada commit.
+| `git push` | | Sube los commits del repositorio local al repositorio remoto (como GitHub).
 
 ---
 
@@ -73,11 +72,11 @@ Algo sobre mí: mi mayor sueño es convertirme en una escritora reconocida.
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
-- [ ] Entiendo para qué sirve el Staging Area
-- [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [X] Hice `git init` sin ayuda
+- [X] Entiendo para qué sirve el Staging Area
+- [X] Escribí un mensaje de commit con formato Conventional Commits
+- [X] Puedo ver el historial con `git log`
+- [X] Completé todos los niveles de esta práctica
 
 ---
 
