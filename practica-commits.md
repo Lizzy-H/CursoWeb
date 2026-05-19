@@ -38,7 +38,7 @@ Algo sobre mí: mi mayor sueño es convertirme en una escritora reconocida.
 > para reemplazar a BitKeeper, que era de licencia y dejó de darse gratis al proyecto Linux.
 > Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento,
 > identificada con un hash SHA-1 único. Para subir cambios al servidor usamos `git push`.
-
+(actividad de clase)
 ---
 
 ## Nivel 4 · Qué aprendí hoy
