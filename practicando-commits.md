@@ -46,10 +46,9 @@ Algo sobre mí: mi mayor sueño es convertirme en una escritora reconocida.
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. ¿qué es un hash?
-2. 
-3. 
-
+1. Diferencias principales entre Git y GitHub
+2. La historia de Git como remplazo de BitKeeper
+3. ¿Por qué se cambió de `master` a `main`?
 ---
 
 ## Nivel 5 · Tabla de comandos
