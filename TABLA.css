@@ -24,24 +24,16 @@ th {
     background-color: #f2f2f2;
 }
 
+/*Colores iniciales*/
+.verde {background-color: green;}
+.amarillo {background-color: yellow;}
+.azul {background-color: blue;}
+.rojo {background-color: red;}   
+.rosa {background-color: pink;} 
 
-
-.verde {
-    background-color: green;
-}
-
-.amarillo {
-    background-color: yellow;
-}
-
-.azul {
-    background-color: blue;
-}
-
-.rojo {
-    background-color: red;
-}   
-
-.rosa {
-    background-color: pink;
-}   
+/*Intercambio de Color*/
+.verde:hover {background-color: white; color: green; }
+.amarillo:hover {background-color: black; color: yellow; }
+.azul:hover {background-color: white; color: blue; }
+.rojo:hover {background-color: white; color: red; }
+.rosa:hover {background-color: black; color: pink; }
