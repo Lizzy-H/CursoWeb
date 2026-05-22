@@ -43,6 +43,7 @@ td.rosa:hover {background-color: black; color: pink; }
 .sticky-note {
     position: fixed;
     top: 20px;
+    right: 10px;
     background-color: #ffeaa7;
     color: #2d3436;
     padding: 150px;
@@ -69,3 +70,18 @@ td.rosa:hover {background-color: black; color: pink; }
         background-color: #fffde7;
     }
 }
+
+/*MIS EXTRA*/
+/*efecto al pasar el cursor letras*/
+td:first-child {
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+/*Cuando pasas el cursor sobre una celda de alguno de los nombres se dezplaza a la derecha*/
+td:first-child:hover {
+    background-color: #2d3436;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
