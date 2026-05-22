@@ -1,3 +1,31 @@
+/*ESTO ES PARA CAMBIAR LA FUENTE DEL TEXTO*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20 px;
+    margin: 0;
+    transition: background-color 0.3s ease; /*Suaviza el cambio de color*/
+}
+
+/*BORDES DE LA TABLA*/
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /*SOMBRA PARA QUE SE VEA AESTHETIC*/
+}
+
+th, td {
+    border: 2px solid #333333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+
 .verde {
     background-color: green;
 }
