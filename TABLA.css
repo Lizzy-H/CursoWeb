@@ -31,9 +31,26 @@ th {
 .rojo {background-color: red;}   
 .rosa {background-color: pink;} 
 
-/*Intercambio de Color*/
-.verde:hover {background-color: white; color: green; }
-.amarillo:hover {background-color: black; color: yellow; }
-.azul:hover {background-color: white; color: blue; }
-.rojo:hover {background-color: white; color: red; }
-.rosa:hover {background-color: black; color: pink; }
+/*Intercambio de Color. Cambio tuve que buscar porque las declaraciones de arriba eran muy fuertes entonces agregué td para arreglarlo*/
+
+td.verde:hover {background-color: white; color: green; }
+td.amarillo:hover {background-color: black; color: yellow; }
+td.azul:hover {background-color: white; color: blue; }
+td.rojo:hover {background-color: white; color: red; }
+td.rosa:hover {background-color: black; color: pink; }
+
+.sticky-note {
+    position: fixed;
+    top: 20px;
+    background-color: #ffeaa7;
+    color: #2d3436;
+    padding: 150px;
+    width: 150px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15); /*SOMBRA DE PAPEL*/
+    transform: rotate(3deg); /*INCLINA AESTHETIC*/
+    border-left: 5px solid #fdcb6e; /*DOBLEZ*/
+    z-index: 1000; /*FLOTA*/
+}
