@@ -39,6 +39,7 @@ td.azul:hover {background-color: white; color: blue; }
 td.rojo:hover {background-color: white; color: red; }
 td.rosa:hover {background-color: black; color: pink; }
 
+/*NOTA ADHESIVA*/
 .sticky-note {
     position: fixed;
     top: 20px;
@@ -53,4 +54,18 @@ td.rosa:hover {background-color: black; color: pink; }
     transform: rotate(3deg); /*INCLINA AESTHETIC*/
     border-left: 5px solid #fdcb6e; /*DOBLEZ*/
     z-index: 1000; /*FLOTA*/
+}
+
+/*CUANDO LA PANTALLA SEA PEQUE*/
+@media (max-width: 600px) {
+    body{
+        background-color: #dfe6e9;
+    }
+}
+
+/*CUANDO LA PANTALLA SEA GRANDE*/
+@media (max-width: 601px) {
+    body{
+        background-color: #fffde7;
+    }
 }
